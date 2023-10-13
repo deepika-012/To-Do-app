@@ -47,6 +47,7 @@ const page = () => {
           onChange={(e) => {
             settask(e.target.value)
           }}
+          // ye jo uppar likha h value =task and then onchange chllaya h this is called 2 way binding means hm btaa rhe h react ko ki what we are writing
 
         />
         <input type="text" placeholder='Enter description here' className='px-4 py-2 rounded border-2 border-zinc-400 m-5 text-xl'
